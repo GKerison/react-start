@@ -1,0 +1,50 @@
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  flex: 1;
+}
+
+.game-info {
+  margin-top: 8px;
+  margin-left: 20px;
+  flex: 1;
+  font-size: 24px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 48px;
+  height: 48px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 48px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+ol, ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.step {
+  padding-bottom: 8px;
+  background: ghostwhite;
+}
